@@ -1,0 +1,66 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin:0;
+	padding: 0px;
+}
+
+input [type="text"]{
+	padding:0;
+	margin:0;
+	line-height:0;
+}
+
+#arvore{
+	width:100%;
+}
+
+.bola{
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	background-color: #000;
+	color:#FFF;
+	text-align: center;
+	line-height: 50px;
+	position:absolute;
+}
+#menu{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	height:140px;
+	background: #d8dadc;
+	color:#666;
+	padding:10px;
+	border-top:1px solid #666;
+}
+
+#console{
+	float:left;
+}
+
+input{
+	width:350px;
+	height:30px;
+	font-size:15px;
+	margin-bottom: 10px;
+}
+
+#btnConsole{
+	height:35px;
+	width:50px;
+}
+
+#boxComandos{
+	float:left;
+	margin-left:30px;
+	height:80px;
+}
+
+#comandos{
+	font-size:0.8em;
+	overflow:auto;
+	height:80px;
+	border:1px dashed #666;
+	border-radius:7px;
+}

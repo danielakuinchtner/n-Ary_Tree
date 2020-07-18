@@ -1,0 +1,38 @@
+
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta name="Author" content="Daniela Kuinchtner">
+		<meta charset="iso-8859-1"> <!--utf-8-->
+		<title>Home</title>
+		<link href="tree.css" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="tree.js"></script>
+	</head>
+	<body onload="criarRaiz(); focarConsole();" onkeydown="if(event.keyCode==13)enviar();">
+		<div id="arvore">
+		</div>
+		<div id="menu">
+			<div id="console">
+				CONSOLE<br>
+				<input type="text" id="txtConsole" value="add 15 10"></input>
+				<button id="btnConsole" onclick="enviar()">OK</button>
+				<br>
+				OUTPUT<br>
+				<input type="text" id="txtSaida" value=""></input>
+				<br>
+			</div>
+			<div id="boxComandos">
+				COMMANDS<br>
+				<div id="comandos">
+					<span style="font-weight:bold;">add [LEAF] [ROOT]</span> - add node (up to 4 digits).<br>
+					<span style="font-weight:bold;">del [LEAF]</span> - delete node.<br>
+					<span style="font-weight:bold;">consulte [LEAF]</span> - it shows the consulted node in red, its root in blue and its leaves in green. Also shows its level in the tree.<br>
+					<span style="font-weight:bold;">root</span> - shows all branch nodes in red.<br>
+					<span style="font-weight:bold;">leaf</span> - shows all leaf nodes in red.<br>
+				</div>
+			</div>
+		</div>
+	</body>
+	
+	</html>
