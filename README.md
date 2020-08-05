@@ -9,7 +9,7 @@ To run just open the [tree.html](tree.html) file in a browser and execute the av
 
 - ```add [LEAF] [ROOT]```: add node (up to 4 digits).
 - ```del [LEAF]```: delete node.
-- ```consultar [LEAF]```: it shows the consulted node in red, its root in blue and its leaves in green. Also shows its level in the tree.
+- ```consulte [LEAF]```: it shows the consulted node in red, its root in blue and its leaves in green. Also shows its level in the tree.
 - ```root```: shows all branch nodes in red.
 - ```leaf```: shows all leaf nodes in red.
 
